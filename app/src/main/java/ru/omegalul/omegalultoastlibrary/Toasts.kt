@@ -11,3 +11,6 @@ fun Context?.c9Toast() =
 
 fun Context?.c8Toast() =
         this.run { Toast.makeText(this, "C8", Toast.LENGTH_LONG).show()   }
+
+fun Context?.c7Toast() =
+        this.run { Toast.makeText(this, "C7", Toast.LENGTH_LONG).show()   }
