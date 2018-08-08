@@ -5,3 +5,6 @@ import android.widget.Toast
 
 fun Context?.omegalulToast() =
         this?.run { Toast.makeText(this, "Omegalul", Toast.LENGTH_LONG).show() }
+
+fun Context?.c9Toast() =
+        this.run { Toast.makeText(this, "C9", Toast.LENGTH_LONG).show() }
